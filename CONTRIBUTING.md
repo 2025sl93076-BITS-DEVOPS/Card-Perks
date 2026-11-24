@@ -94,8 +94,8 @@ safe to run multiple times.
 ## PR guidelines
 
 - **One file per PR** — `data/cards/<slug>.yaml` only
-- **Slug naming** — lowercase, hyphen-separated, `issuer-card-name`
-  (e.g. `icici-amazon-pay`, `hdfc-regalia`, `sbi-cashback`)
+- **Slug naming** — lowercase, hyphen-separated, `product-name-issuer`
+  (e.g. `amazon-pay-icici`, `hdfc-regalia`, `sbi-cashback`)
 - **PR title** — `Add: <full card name>` (e.g. `Add: HDFC Regalia Credit Card`)
 - **Source URL is required** — the PR will not be merged without a working
   official bank page URL in the `source` field

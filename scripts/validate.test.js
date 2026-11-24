@@ -98,6 +98,16 @@ test('fees.joining: 0 is valid', () => {
   } finally { cleanup(dir); }
 });
 
+test('network: null is valid', () => {
+  const dir = makeTempDir();
+  try {
+    const card = VALID_CARD.replace('network: Visa', 'network: null');
+    writeFileSync(join(dir, 'null-network.yaml'), card);
+    const result = validateCards(dir, SCHEMA_PATH);
+    assert.equal(result.valid, true);
+  } finally { cleanup(dir); }
+});
+
 test('YAML parse error reported per-file, other files still checked', () => {
   const dir = makeTempDir();
   try {

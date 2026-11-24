@@ -6,11 +6,12 @@ Extract the credit card data below into a YAML file matching the schema.
 
 ## Rules
 
-1. **Output `null` for any field not explicitly stated in the pasted text — never guess, never infer.**
-   If a fee is not mentioned, it is `null`, not `0`. If eligibility details are absent, every sub-field is `null`.
+1. **Output `null` for any nullable field not explicitly stated in the pasted text — never guess, never infer.**
+   Nullable fields are: `network`, `rewards.categories[*].cap`, `eligibility.min_age`, `eligibility.min_monthly_income`, `eligibility.notes`.
+   **Fees are always required numbers** (`joining`, `annual`). Use `0` if the card is confirmed free, or the exact number stated. If a fee is genuinely absent from the page, note it in `eligibility.notes` for the reviewer rather than guessing.
 2. The `perks` list must contain only benefits explicitly stated on the official page — no paraphrasing, no additions.
-3. The slug (output filename, without `.yaml`) must be lowercase and hyphen-separated: `issuer-card-name`.
-   Example: "HDFC Regalia Credit Card" issued by HDFC Bank → `hdfc-regalia`.
+3. The slug (output filename, without `.yaml`) must be lowercase and hyphen-separated: `product-name-issuer`.
+   Example: "Amazon Pay ICICI Bank Credit Card" → `amazon-pay-icici`.
 4. `source` must be the exact URL of the official bank page you copied the text from.
 5. `last_verified` must be today's date in `YYYY-MM-DD` format.
 
@@ -21,8 +22,8 @@ name:            string        # required — full card name as printed
 issuer:          string        # required — bank name
 network:         string|null   # Visa / Mastercard / RuPay / Amex; null if unspecified
 fees:
-  joining:       number        # INR, no symbols; 0 means free; null if not stated
-  annual:        number        # INR; null if not stated
+  joining:       number        # INR, no symbols; 0 means free; always required
+  annual:        number        # INR; always required
 rewards:
   base_rate:     string        # required — e.g. "1% on all spends"
   categories:                  # optional — omit block if no category-specific rates
