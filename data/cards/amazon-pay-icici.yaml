@@ -1,0 +1,29 @@
+name: Amazon Pay ICICI Bank Credit Card
+issuer: ICICI Bank
+network: Visa
+fees:
+  joining: 0
+  annual: 0
+rewards:
+  base_rate: "1% unlimited on all spends"
+  categories:
+    - merchant: "Amazon (Prime members)"
+      rate: "5%"
+      cap: null
+    - merchant: "Amazon (non-Prime)"
+      rate: "3%"
+      cap: null
+    - merchant: "Amazon Pay partner sites"
+      rate: "2%"
+      cap: null
+eligibility:
+  min_age: 21
+  min_monthly_income: 30000
+  notes: "Indian citizen; invite-only program"
+perks:
+  - "1% fuel surcharge waiver"
+  - "1.99% forex markup"
+  - "No-cost EMI on eligible Amazon purchases"
+  - "Add-on cards available"
+source: "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card"
+last_verified: "2026-11-24"

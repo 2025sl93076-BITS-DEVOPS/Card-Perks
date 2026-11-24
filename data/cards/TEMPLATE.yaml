@@ -1,0 +1,23 @@
+# Copy this file to data/cards/<issuer-card-name>.yaml and fill in the values.
+# The filename (without .yaml) becomes the card's stable ID in MongoDB.
+# Use null for any field not explicitly stated on the official card page — never guess.
+
+name:            # required: full card name as printed on the card
+issuer:          # required: bank name, e.g. "HDFC Bank"
+network: null    # Visa / Mastercard / RuPay / Amex / null if unspecified
+fees:
+  joining: 0     # INR, no symbols; 0 means free
+  annual: 0      # INR
+rewards:
+  base_rate: ""  # required: e.g. "1% on all spends"
+  categories:    # optional: remove this block if no category-specific rates
+    - merchant: ""   # e.g. "Amazon"
+      rate: ""       # e.g. "5%"
+      cap: null      # e.g. "₹1000/cycle" or null
+eligibility:
+  min_age: null             # number or null
+  min_monthly_income: null  # INR or null
+  notes: null               # any other eligibility notes or null
+perks: []        # list only perks explicitly stated on the official page
+source: ""       # required: official bank URL you copied the data from
+last_verified: "YYYY-MM-DD"  # required: date you verified the data

@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "issuer", "fees", "rewards", "eligibility", "perks", "source", "last_verified"],
+  "properties": {
+    "name": { "type": "string" },
+    "issuer": { "type": "string" },
+    "network": { "type": ["string", "null"] },
+    "fees": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["joining", "annual"],
+      "properties": {
+        "joining": { "type": "number" },
+        "annual": { "type": "number" }
+      }
+    },
+    "rewards": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["base_rate"],
+      "properties": {
+        "base_rate": { "type": "string" },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["merchant", "rate"],
+            "properties": {
+              "merchant": { "type": "string" },
+              "rate": { "type": "string" },
+              "cap": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "eligibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["min_age", "min_monthly_income"],
+      "properties": {
+        "min_age": { "type": ["number", "null"] },
+        "min_monthly_income": { "type": ["number", "null"] },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "perks": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "source": { "type": "string", "minLength": 1 },
+    "last_verified": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  }
+}

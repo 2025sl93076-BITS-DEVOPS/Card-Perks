@@ -2,6 +2,7 @@
   "name": "card-perks",
   "version": "1.0.0",
   "description": "MERN stack app for Card Perks",
+  "type": "module",
   "scripts": {
     "dev:client": "npm run dev --prefix client",
     "dev:server": "npm run dev --prefix server",
