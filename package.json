@@ -9,7 +9,8 @@
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "install:all": "npm install --prefix client && npm install --prefix server",
     "validate": "node scripts/validate.js",
-    "test:validate": "node --test scripts/validate.test.js"
+    "test:validate": "node --test scripts/validate.test.js",
+    "seed": "node server/scripts/seed.js"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
