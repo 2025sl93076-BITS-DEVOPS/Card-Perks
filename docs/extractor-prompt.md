@@ -47,7 +47,7 @@ last_verified:   string        # required — YYYY-MM-DD
 
 Return only the YAML block below — no explanation, no markdown fences, no extra text.
 
-slug: [issuer-card-name]
+slug: [product-name-issuer]
 
 ---
 [yaml content here]

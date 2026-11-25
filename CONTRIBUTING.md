@@ -62,7 +62,7 @@ accurate, which is your job in Step 3.
 ### Step 5 — COMMIT
 
 Save the file to `data/cards/<slug>.yaml` where the slug is lowercase and
-hyphen-separated: e.g. `hdfc-regalia` for the HDFC Regalia Credit Card.
+hyphen-separated, `product-name-issuer`: e.g. `regalia-hdfc` for the HDFC Regalia Credit Card.
 
 ```bash
 git add data/cards/<slug>.yaml
@@ -95,7 +95,7 @@ safe to run multiple times.
 
 - **One file per PR** — `data/cards/<slug>.yaml` only
 - **Slug naming** — lowercase, hyphen-separated, `product-name-issuer`
-  (e.g. `amazon-pay-icici`, `hdfc-regalia`, `sbi-cashback`)
+  (e.g. `amazon-pay-icici`, `cashback-sbi`, `regalia-hdfc`)
 - **PR title** — `Add: <full card name>` (e.g. `Add: HDFC Regalia Credit Card`)
 - **Source URL is required** — the PR will not be merged without a working
   official bank page URL in the `source` field
