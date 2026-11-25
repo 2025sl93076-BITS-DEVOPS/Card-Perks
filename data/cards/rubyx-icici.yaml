@@ -1,0 +1,33 @@
+name: ICICI Bank Rubyx Credit Card
+issuer: ICICI Bank
+network: null
+fees:
+  joining: 3000
+  annual: 2000
+rewards:
+  base_rate: "2 Reward Points per Rs. 100 on domestic spends"
+  categories:
+    - merchant: "International spends"
+      rate: "4 Reward Points per Rs. 100"
+      cap: null
+    - merchant: "Utility and insurance spends"
+      rate: "1 Reward Point per Rs. 100"
+      cap: null
+eligibility:
+  min_age: 21
+  min_monthly_income: 75000
+  notes: "Salaried: monthly income Rs. 75,000; Self-employed: annual income Rs. 9,00,000. Indian citizen."
+perks:
+  - "Welcome vouchers from Tata CLiQ, Tata Croma, EazyDiner, EaseMyTrip, Avis and Elivaas worth over Rs. 15,000"
+  - "2 complimentary domestic airport lounge accesses per quarter on eligible spends of Rs. 75,000 or more in preceding quarter"
+  - "8 complimentary railway lounge accesses per year"
+  - "Up to 2 golf rounds/lessons per month on eligible spend of Rs. 50,000 in preceding calendar month"
+  - "25% off up to Rs. 150 on movie tickets at INOX twice a month"
+  - "25% off up to Rs. 150 on movie tickets on BookMyShow twice a month on eligible spends of Rs. 25,000 or more in preceding quarter"
+  - "Air Accident Insurance cover up to Rs. 1 crore"
+  - "24/7 concierge service"
+  - "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 4,000 at all fuel pumps"
+  - "3,000 Reward Points on Rs. 3 lakh spend and 1,500 for every additional Rs. 1 lakh spend, max 15,000 points per year"
+  - "Annual fee waived on spends of Rs. 3 lakh or more in preceding year"
+source: "https://www.icicibank.com/personal-banking/cards/credit-card/rubyx-credit-card"
+last_verified: "2026-11-25"

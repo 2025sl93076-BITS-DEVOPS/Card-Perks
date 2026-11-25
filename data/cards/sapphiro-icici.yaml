@@ -1,0 +1,32 @@
+name: ICICI Bank Sapphiro Credit Card
+issuer: ICICI Bank
+network: null
+fees:
+  joining: 6500
+  annual: 3500
+rewards:
+  base_rate: "2 Reward Points per Rs. 100 on domestic spends"
+  categories:
+    - merchant: "International spends"
+      rate: "4 Reward Points per Rs. 100"
+      cap: null
+    - merchant: "Utility and insurance spends"
+      rate: "1 Reward Point per Rs. 100"
+      cap: null
+eligibility:
+  min_age: 21
+  min_monthly_income: 75000
+  notes: "Salaried: monthly income Rs. 75,000; Self-employed: annual income Rs. 9,00,000. Indian citizen."
+perks:
+  - "Welcome vouchers from Tata CLiQ, EazyDiner, Da Milano, EaseMyTrip, and Tata Croma worth over Rs. 13,000"
+  - "2 complimentary international airport lounge accesses per year for primary cardholder"
+  - "4 complimentary domestic airport lounge accesses per quarter on eligible spends of Rs. 75,000 or more in preceding quarter"
+  - "Buy One Get One on BookMyShow up to Rs. 500 off twice a month on eligible spends of Rs. 25,000 or more in preceding quarter"
+  - "Air Accident Insurance cover up to Rs. 3 crore"
+  - "24/7 concierge service"
+  - "4 golf rounds/lessons per month on eligible spend of Rs. 50,000 in preceding calendar month"
+  - "4,000 Reward Points on Rs. 4 lakh spend and 2,000 for every additional Rs. 1 lakh spend, up to 20,000 RPs per anniversary year"
+  - "Annual fee waived on spends of Rs. 6 lakh or more in the preceding year"
+  - "1% fuel surcharge waiver on transactions up to Rs. 4,000 at all fuel pumps"
+source: "https://www.icicibank.com/personal-banking/cards/credit-card/sapphiro-credit-card"
+last_verified: "2026-11-25"

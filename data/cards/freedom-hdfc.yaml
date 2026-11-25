@@ -1,0 +1,27 @@
+name: HDFC Bank Freedom Credit Card
+issuer: HDFC Bank
+network: null
+fees:
+  joining: 500
+  annual: 500
+rewards:
+  base_rate: "1 Reward Point per Rs. 200 spent on other spends"
+  categories:
+    - merchant: "Big Basket, BookMyShow, OYO, Swiggy, Uber"
+      rate: "10X CashPoints"
+      cap: null
+eligibility:
+  min_age: 21
+  min_monthly_income: 12000
+  notes: "Salaried: max age 60; Self-employed: max age 65, annual ITR > Rs. 6 lakh. Indian nationality required."
+perks:
+  - "500 Reward Points on fee realisation (joining fee payment)"
+  - "Renewal fee waived on annual spends of Rs. 50,000 or above"
+  - "10% additional discount on Swiggy Dineout using coupon code HDFCCARDS"
+  - "1% fuel surcharge waiver at all fuel stations (min Rs. 400, max Rs. 5,000 per transaction, max Rs. 250 waiver per statement cycle)"
+  - "Up to 50 days interest-free period from date of purchase"
+  - "1% cashback on international transactions (up to Rs. 1,000 per statement cycle)"
+  - "500 bonus Reward Points on first international transaction (first year only)"
+  - "Rs. 2,000 MakeMyTrip/ClearTrip/Yatra/EaseMyTrip voucher on international spends of Rs. 1,50,000 in a year (GVP program)"
+source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards/freedom-credit-card"
+last_verified: "2026-11-25"

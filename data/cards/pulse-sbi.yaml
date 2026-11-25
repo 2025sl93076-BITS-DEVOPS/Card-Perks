@@ -1,0 +1,32 @@
+name: SBI Card PULSE
+issuer: SBI Card
+network: null
+fees:
+  joining: 1499
+  annual: 1499
+rewards:
+  base_rate: "2 Reward Points per Rs. 100 on all other spends"
+  categories:
+    - merchant: "Chemist, Pharmacy, Sports, Dining, Movies"
+      rate: "10 Reward Points per Rs. 100"
+      cap: null
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - "Noise ColorFit Pulse 4 Pro Smart Watch worth Rs. 7,999 on payment of Joining Fee"
+  - "Complimentary 1-year FITPASS PRO Membership on card renewal every year"
+  - "Complimentary 1-year Netmeds First Membership on card renewal every year"
+  - "Waiver of Renewal Fee on annual spends of Rs. 2 lakhs"
+  - "Rs. 1,500 e-Voucher on annual retail spends of Rs. 4 lakhs"
+  - "Fraud Liability Insurance cover of Rs. 1 lakh"
+  - "Loss of check-in baggage cover up to Rs. 72,000 (US $1,000)"
+  - "Delay of check-in baggage cover of Rs. 7,500"
+  - "Loss of travel documents cover up to Rs. 12,500"
+  - "Delay in flight cover up to Rs. 7,500"
+  - "4 complimentary Domestic Lounge visits every year (1 per quarter)"
+  - "Complimentary Priority Pass Membership worth US $99 for first two years"
+  - "Add-on cards free"
+source: "https://www.sbicard.com/en/personal/credit-cards/sbi-card-pulse.html"
+last_verified: "2026-11-25"

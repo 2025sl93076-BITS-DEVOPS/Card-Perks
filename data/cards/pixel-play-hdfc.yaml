@@ -1,0 +1,29 @@
+name: HDFC Bank PIXEL Play Credit Card
+issuer: HDFC Bank
+network: RuPay
+fees:
+  joining: 0
+  annual: 0
+rewards:
+  base_rate: "1% CashBack on UPI spends (RuPay variant only)"
+  categories:
+    - merchant: "Choice of any two category packs (Dining & Entertainment, Travel, Grocery, Electronics, or Fashion)"
+      rate: "5% CashBack"
+      cap: null
+    - merchant: "Amazon, Flipkart, or PayZapp"
+      rate: "3% CashBack"
+      cap: null
+eligibility:
+  min_age: 21
+  min_monthly_income: 25000
+  notes: "Salaried: max age 60; Self-employed: min age 21, max age 65, annual ITR > Rs. 6,00,000. Indian nationality required. FD-backed variant available with no income proof."
+perks:
+  - "Joining fee waiver on spending Rs. 20,000 within 90 days of card issuance"
+  - "Customisable billing cycle"
+  - "Customisable card design"
+  - "Customisable merchant partner packs"
+  - "Instant conversion of outstanding balance to EMIs via PayZapp"
+  - "Up to 50 days interest-free period from date of purchase"
+  - "Card management via PayZapp (controls, rewards, statements, repayments, disputes)"
+source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards/pixel-play-credit-card"
+last_verified: "2026-11-25"

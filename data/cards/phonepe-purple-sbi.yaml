@@ -1,0 +1,27 @@
+name: PhonePe SBI Card PURPLE
+issuer: SBI Card
+network: null
+fees:
+  joining: 499
+  annual: 499
+rewards:
+  base_rate: "1 Reward Point per Rs. 100 on other spends"
+  categories:
+    - merchant: "Eligible PhonePe spends"
+      rate: "3 Reward Points per Rs. 100"
+      cap: null
+    - merchant: "Eligible online spends"
+      rate: "2 Reward Points per Rs. 100"
+      cap: null
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - "PhonePe Gift Card worth Rs. 500 on joining"
+  - "Yatra voucher worth Rs. 3,000 on annual spends of Rs. 3 lakhs"
+  - "Annual Fee reversal on spends of Rs. 1 lakh or more in previous membership year"
+  - "1% fuel surcharge waiver on transactions between Rs. 500 and Rs. 3,000, max Rs. 100 per statement cycle"
+  - "Add-on cards free"
+source: "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-purple.html"
+last_verified: "2026-11-25"

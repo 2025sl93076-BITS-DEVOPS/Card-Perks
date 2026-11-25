@@ -1,0 +1,37 @@
+name: SBI Card AURUM
+issuer: SBI Card
+network: null
+fees:
+  joining: 0
+  annual: 0
+rewards:
+  base_rate: "1 AURUM Reward Point = Rs. 0.25"
+  categories:
+    - merchant: "Welcome benefit on first annual fee payment"
+      rate: "40,000 AURUM Reward Points (Rs. 10,000 equivalent)"
+      cap: null
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - "40,000 AURUM Reward Points worth Rs. 10,000 on payment of first annual fee"
+  - "Complimentary 1-year Club Marriott Membership"
+  - "Complimentary 1-year digital subscription to The Wall Street Journal"
+  - "Complimentary 1-year digital subscription to Mint"
+  - "Complimentary 1-year membership to Inflection Point Venture (IPV) worth Rs. 29,382"
+  - "16 complimentary golf rounds per calendar year (4 per quarter)"
+  - "12 complimentary golf lessons per calendar year"
+  - "Rs. 1,500 voucher every month on reaching monthly spends of Rs. 1 lakh"
+  - "Rs. 5,000 voucher on reaching annual spends of Rs. 5 lakhs"
+  - "Rs. 10,000 voucher on reaching annual spends of Rs. 10 lakhs"
+  - "Rs. 9,999 voucher on reaching annual spends of Rs. 12 lakhs"
+  - "Rs. 20,000 voucher on reaching annual spends of Rs. 20 lakhs"
+  - "1% fuel surcharge waiver on transactions between Rs. 500 and Rs. 4,000, max Rs. 250 per statement cycle"
+  - "Travel insurance coverage of Rs. 1 lakh for flight delay and loss of goods or baggage"
+  - "Air accidental death coverage of Rs. 3.50 crore"
+  - "Two flight cancellation refunds per year from any airline"
+  - "Lost card and fraud protection coverage of Rs. 10 lakhs"
+  - "Add-on cards available"
+source: "https://www.sbicard.com/en/personal/credit-cards/aurum-sbi-card.html"
+last_verified: "2026-11-25"

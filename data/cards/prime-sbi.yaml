@@ -1,0 +1,35 @@
+name: SBI Card PRIME
+issuer: SBI Card
+network: null
+fees:
+  joining: 2999
+  annual: 2999
+rewards:
+  base_rate: "2 Reward Points per Rs. 100 on all other retail spends, except fuel"
+  categories:
+    - merchant: "Dining, departmental stores, movies, grocery"
+      rate: "10 Reward Points per Rs. 100"
+      cap: null
+    - merchant: "Utility bill payment (standing instructions)"
+      rate: "20 Reward Points per Rs. 100 (capped at 3,000 points, then 2 points per Rs. 100)"
+      cap: "3,000 points"
+    - merchant: "Birthday spends (1 day before, on, and 1 day after birthday)"
+      rate: "20 Reward Points per Rs. 100"
+      cap: "2,000 points per calendar year"
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - "Welcome e-Gift Voucher worth Rs. 3,000 (Yatra, Hush Puppies/Bata, Pantaloons, Aditya Birla Fashion, Shoppers Stop)"
+  - "4 complimentary International Priority Pass Lounge visits per calendar year outside India (max 2 per quarter)"
+  - "8 Domestic Lounge visits every year"
+  - "Complimentary Priority Pass Program membership worth $99"
+  - "Pizza Hut e-Voucher worth Rs. 1,000 on quarterly spends of Rs. 50,000"
+  - "Renewal fee waived on annual spends of Rs. 3 lakhs"
+  - "E-Gift Voucher worth Rs. 7,000 from Yatra.com/Pantaloons on annual spends of Rs. 5 lakhs"
+  - "Complimentary 1-year Club ITC Silver Tier Membership"
+  - "4 rounds of complimentary green fees and up to 50% off on golf games, 1 complimentary lesson per month at selected courses across India (Mastercard)"
+  - "Add-on cards free"
+source: "https://www.sbicard.com/en/personal/credit-cards/sbi-card-prime.html"
+last_verified: "2026-11-25"

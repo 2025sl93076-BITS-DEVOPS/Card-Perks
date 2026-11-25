@@ -1,0 +1,29 @@
+name: PhonePe SBI Card SELECT BLACK
+issuer: SBI Card
+network: null
+fees:
+  joining: 1499
+  annual: 1499
+rewards:
+  base_rate: "1 Reward Point per Rs. 100 on other spends"
+  categories:
+    - merchant: "Eligible PhonePe spends"
+      rate: "10 Reward Points per Rs. 100"
+      cap: null
+    - merchant: "Eligible online spends"
+      rate: "5 Reward Points per Rs. 100"
+      cap: null
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - "PhonePe e-Gift Card worth Rs. 1,500 on joining"
+  - "Yatra e-Voucher worth Rs. 5,000 on annual spends of Rs. 5 lakhs"
+  - "Complimentary Priority Pass Program membership worth $99 for first two years"
+  - "4 complimentary domestic lounge visits every year (max 1 per quarter)"
+  - "Annual Fee reversal on spends of Rs. 3 lakhs or more in previous membership year"
+  - "1% fuel surcharge waiver on transactions between Rs. 500 and Rs. 4,000, max Rs. 250 per statement cycle"
+  - "Add-on cards free"
+source: "https://www.sbicard.com/en/personal/credit-cards/phonepe-sbi-card-select-black.html"
+last_verified: "2026-11-25"

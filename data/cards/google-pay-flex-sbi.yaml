@@ -1,0 +1,32 @@
+name: Google Pay Flex SBI Card
+issuer: SBI Card
+network: null
+fees:
+  joining: 499
+  annual: 499
+rewards:
+  base_rate: "1 Star per Rs. 500 spent cumulatively on eligible transactions"
+  categories:
+    - merchant: "All eligible spends (accelerated, min Rs. 100 spent in previous cycle)"
+      rate: "2 Stars per Rs. 500 spent cumulatively"
+      cap: null
+    - merchant: "Google One members (on reaching Rs. 15,000 spends in a month)"
+      rate: "Up to 3.2% stars"
+      cap: null
+    - merchant: "Non-Google One members (on reaching Rs. 15,000 spends in a month)"
+      rate: "Up to 1.6% stars"
+      cap: null
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - "Welcome Gift worth Rs. 2,000 on Google Pay App on payment of joining fee"
+  - "500 Stars on payment of joining fee on Google Pay App"
+  - "Annual Fee reversal on spends of Rs. 1 lakh or more in the preceding year"
+  - "Redeem Stars for instant cashback on UPI payments via Google Pay App (1 Star = Re 1)"
+  - "Redeem Stars against exclusive vouchers on Google Pay App"
+  - "Convert outstanding bill into EMIs"
+  - "Add-on cards free"
+source: "https://www.sbicard.com/en/personal/credit-cards/google-pay-flex-sbi-card.html"
+last_verified: "2026-11-25"

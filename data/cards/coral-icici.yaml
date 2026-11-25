@@ -1,0 +1,26 @@
+name: ICICI Bank Coral Credit Card
+issuer: ICICI Bank
+network: null
+fees:
+  joining: 500
+  annual: 500
+rewards:
+  base_rate: "2 Reward Points per Rs. 100 on retail spends"
+  categories:
+    - merchant: "Utility and insurance spends"
+      rate: "1 Reward Point per Rs. 100"
+      cap: null
+eligibility:
+  min_age: 21
+  min_monthly_income: 20000
+  notes: "Salaried: monthly income Rs. 20,000; Self-employed: annual income Rs. 2,40,000. Indian citizen."
+perks:
+  - "1 complimentary domestic airport lounge access per quarter on eligible spends of Rs. 75,000 or more in preceding quarter"
+  - "4 complimentary railway lounge accesses per year"
+  - "25% off up to Rs. 100 on movie tickets on BookMyShow twice a month on eligible spends of Rs. 25,000 or more in preceding quarter"
+  - "25% off up to Rs. 100 on movie tickets at INOX twice a month"
+  - "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 4,000 at HPCL pumps"
+  - "2,000 Reward Points on Rs. 2 lakh spend and 1,000 for every additional Rs. 1 lakh spend, max 10,000 points per anniversary year"
+  - "Annual fee waived on spends of Rs. 1.5 lakh or more in preceding year"
+source: "https://www.icicibank.com/personal-banking/cards/credit-card/coral-credit-card"
+last_verified: "2026-11-25"

@@ -1,0 +1,27 @@
+name: SimplyCLICK SBI Card
+issuer: SBI Card
+network: null
+fees:
+  joining: 499
+  annual: 499
+rewards:
+  base_rate: "1 Reward Point per Rs. 100 on all other spends"
+  categories:
+    - merchant: "Apollo 24x7, BookMyShow, Cleartrip, Dominos, IGP, Myntra, Netmeds, Swiggy, Yatra, Gyftr, Tata Cliq"
+      rate: "10X Reward Points"
+      cap: null
+    - merchant: "All other online spends"
+      rate: "5X Reward Points"
+      cap: null
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - "Amazon.in e-Gift Card worth Rs. 500 on payment of Annual Fee"
+  - "E-Vouchers worth Rs. 2,000 each on annual online spends of Rs. 1 Lakh and Rs. 2 Lakhs (Cleartrip or Yatra)"
+  - "Annual Fee reversal on annual spends of Rs. 1 Lakh or more"
+  - "1% fuel surcharge waiver on transactions between Rs. 500 and Rs. 3,000, max Rs. 100 per statement cycle"
+  - "Add-on cards free"
+source: "https://www.sbicard.com/en/personal/credit-cards/simplyclick-sbi-card.html"
+last_verified: "2026-11-25"
