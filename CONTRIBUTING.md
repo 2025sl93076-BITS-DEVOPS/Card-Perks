@@ -27,13 +27,30 @@ cp server/.env.example server/.env
 
 Open the official bank page for the card in a real browser. Copy all the
 relevant text: fees, rewards, eligibility rules, perks. Save the URL — you
-will need it for the `source` field.
+will need it for the `source` field. Save the copied text to a file, e.g.
+`raw/<slug>.txt` (the `raw/` folder is gitignored — it's just your scratch input).
 
 ### Step 2 — EXTRACT
 
-Open `docs/extractor-prompt.md`. Paste the copied page text where it says
-`[PASTE THE CARD PAGE TEXT HERE]`, then send the whole prompt to an AI model.
-The AI will return a draft YAML file.
+Two ways to turn the acquired text into a draft YAML:
+
+**Automated (recommended):** run the extractor script, which sends your text
+to an LLM (Groq) and writes the draft for you:
+
+```bash
+npm run extract -- raw/<slug>.txt <slug>
+```
+
+This needs a free `GROQ_API_KEY` in `server/.env` (get one at console.groq.com).
+It writes `data/cards/<slug>.yaml`. To use a different Groq model, set
+`GROQ_MODEL` in `server/.env`.
+
+**Manual:** open `docs/extractor-prompt.md`, paste the copied page text where it
+says `[PASTE THE CARD PAGE TEXT HERE]`, send the whole prompt to any AI model,
+and save the returned YAML to `data/cards/<slug>.yaml`.
+
+Either way the output is a **draft** — the LLM may flatten reward categories,
+mis-label perks, or miss details. Step 3 is where you fix that.
 
 ### Step 3 — VERIFY
 
