@@ -1,0 +1,22 @@
+name: CASHBACK SBI Card
+issuer: SBI Card
+network: null
+fees:
+  joining: 999
+  annual: 999
+rewards:
+  base_rate: "1% cashback on offline spends"
+  categories:
+    - merchant: "Online spends (no merchant restriction)"
+      rate: "5%"
+      cap: null
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - "1% fuel surcharge waiver on transactions between ₹500 and ₹3,000, max ₹100 per statement cycle"
+  - "Renewal fee reversed on annual spends of ₹2,00,000"
+  - "Add-on cards free"
+source: "https://www.sbicard.com/en/personal/credit-cards/cashback-sbi-card.html"
+last_verified: "2026-11-24"
