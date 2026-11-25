@@ -73,6 +73,9 @@ web_modules/
 .env.*
 !.env.example
 
+# raw acquired card text (intermediate input for extraction, not source of truth)
+raw/
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache

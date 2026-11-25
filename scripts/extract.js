@@ -6,7 +6,7 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url));
 const PROMPT_PATH = join(__dirname, '../docs/extractor-prompt.md');
 const CARDS_DIR = join(__dirname, '../data/cards');
 const GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions';
-const MODEL = 'llama-3.3-70b-versatile';
+const DEFAULT_MODEL = 'openai/gpt-oss-120b';
 const PLACEHOLDER = '[PASTE THE CARD PAGE TEXT HERE]';
 
 export function buildPrompt(promptTemplate, rawText) {
@@ -22,7 +22,7 @@ export function stripToYaml(raw) {
   return t.trim() + '\n';
 }
 
-async function callGroq(prompt, apiKey) {
+async function callGroq(prompt, apiKey, model) {
   const res = await fetch(GROQ_URL, {
     method: 'POST',
     headers: {
@@ -30,7 +30,7 @@ async function callGroq(prompt, apiKey) {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: MODEL,
+      model,
       temperature: 0,
       messages: [{ role: 'user', content: prompt }],
     }),
@@ -62,8 +62,9 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const rawText = readFileSync(rawFile, 'utf8');
   const prompt = buildPrompt(template, rawText);
 
-  process.stderr.write(`Extracting via Groq (${MODEL})...\n`);
-  const response = await callGroq(prompt, apiKey);
+  const model = process.env.GROQ_MODEL || DEFAULT_MODEL;
+  process.stderr.write(`Extracting via Groq (${model})...\n`);
+  const response = await callGroq(prompt, apiKey, model);
   const yaml = stripToYaml(response);
 
   const outPath = join(CARDS_DIR, `${slug}.yaml`);
