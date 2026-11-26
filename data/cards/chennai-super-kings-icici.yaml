@@ -1,0 +1,34 @@
+name: Chennai Super Kings ICICI Bank Credit Card
+issuer: ICICI Bank
+network: null
+fees:
+  joining: 500
+  annual: 500
+rewards:
+  base_rate: 1 Reward Point per ₹100 on retail spends (except fuel)
+  categories:
+    - merchant: CSK Match Days
+      rate: 10 Reward Points per ₹100
+      cap: null
+    - merchant: Domestic
+      rate: 2 Reward Points per ₹100
+      cap: null
+    - merchant: Utility & Insurance
+      rate: 1 Reward Point per ₹100
+      cap: null
+eligibility:
+  min_age: 21
+  min_monthly_income: 20000
+  notes: 'Salaried: ₹20,000/month; Self-employed: ₹2,40,000/year. Applications are no longer being accepted.'
+perks:
+  - 1 Domestic Airport Lounge access quarterly on spends of ₹75,000+
+  - 25% off up to ₹100 on movie tickets at INOX twice a month
+  - 25% off up to ₹100 on movie tickets on BookMyShow twice a month on spends of ₹25,000+
+  - Complimentary tickets to a CSK home match
+  - 2,000 ICICI Bank Reward Points as joining and renewal gift
+  - 1% fuel surcharge waiver at all HPCL petrol pumps
+  - Annual fee waiver on spending more than ₹1,50,000 per year
+  - Exclusive Meet and Greet session with select players
+  - Autographed merchandise for monthly top spenders
+source: ''
+last_verified: '2026-11-26'

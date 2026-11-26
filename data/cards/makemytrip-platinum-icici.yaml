@@ -2,27 +2,29 @@ name: MakeMyTrip ICICI Bank Platinum Credit Card
 issuer: ICICI Bank
 network: null
 fees:
-  joining: 500
+  joining: 529
   annual: 0
 rewards:
-  base_rate: "1 myCash per Rs. 200 on domestic spends"
+  base_rate: 1 myCash per Rs. 200 on domestic spends
   categories:
-    - merchant: "Hotel booking on MakeMyTrip"
-      rate: "3 myCash per Rs. 200"
+    - merchant: Hotel booking on MakeMyTrip
+      rate: 3 myCash per Rs. 200
       cap: null
-    - merchant: "Flight booking on MakeMyTrip"
-      rate: "2 myCash per Rs. 200"
+    - merchant: Flight booking on MakeMyTrip
+      rate: 2 myCash per Rs. 200
       cap: null
 eligibility:
   min_age: 21
   min_monthly_income: 20000
-  notes: "Salaried: monthly income Rs. 20,000; Self-employed: annual income at least Rs. 20,000. Indian citizen."
+  notes: null
 perks:
-  - "MakeMyTrip holiday voucher and Rs. 500 myCash on joining"
-  - "1,000 myCash on spends of Rs. 2.5 lakh in an anniversary year"
-  - "1,000 myCash on spends of Rs. 50,000 on MakeMyTrip platform"
-  - "1 complimentary domestic airport lounge access per quarter on eligible spends of Rs. 75,000 or more in preceding quarter"
-  - "4 complimentary railway lounge accesses per year"
-  - "1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 4,000 at HPCL pumps on ICICI Bank POS machines"
-source: "https://www.icicibank.com/personal-banking/cards/credit-card/makemytrip-icici-bank-platinum-credit-card"
-last_verified: "2026-11-25"
+  - MakeMyTrip holiday voucher and Rs. 500 myCash on joining
+  - 1,000 myCash on spends of Rs. 2.5 lakh in an anniversary year
+  - 1,000 myCash on spends of Rs. 50,000 on MakeMyTrip platform
+  - >-
+    1 complimentary domestic airport lounge access per quarter on eligible spends of Rs. 75,000 or more in preceding
+    quarter
+  - 4 complimentary railway lounge accesses per year
+  - 1% fuel surcharge waiver on transactions between Rs. 400 and Rs. 4,000 at HPCL pumps on ICICI Bank POS machines
+source: https://www.icicibank.com/personal-banking/cards/credit-card/makemytrip-icici-bank-platinum-credit-card
+last_verified: '2026-11-25'

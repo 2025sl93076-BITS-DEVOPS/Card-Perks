@@ -3,6 +3,10 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
+# macOS
+.DS_Store
+# JetBrains IDE
+.idea/
 yarn-error.log*
 lerna-debug.log*
 

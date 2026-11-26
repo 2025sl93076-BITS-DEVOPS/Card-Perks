@@ -1,30 +1,30 @@
 name: IndianOil HDFC Bank Credit Card
 issuer: HDFC Bank
-network: null
+network: Mastercard
 fees:
-  joining: 500
+  joining: 590
   annual: 500
 rewards:
-  base_rate: "1 Fuel Point per Rs. 150 spent on other purchases including UPI transactions"
+  base_rate: 1 Fuel Point per Rs. 150 spent on other purchases including UPI transactions
   categories:
-    - merchant: "IndianOil outlets (non-UPI transactions)"
-      rate: "5% of spends as Fuel Points"
+    - merchant: IndianOil outlets (non-UPI transactions)
+      rate: 5% of spends as Fuel Points
       cap: null
-    - merchant: "Groceries (POS and online)"
-      rate: "5% of spends as Fuel Points"
-      cap: "100 Fuel Points per month"
-    - merchant: "Bill Payments (POS and online)"
-      rate: "5% of spends as Fuel Points"
-      cap: "100 Fuel Points per month"
+    - merchant: Groceries (POS and online)
+      rate: 5% of spends as Fuel Points
+      cap: 100 Fuel Points per month
+    - merchant: Bill Payments (POS and online)
+      rate: 5% of spends as Fuel Points
+      cap: 100 Fuel Points per month
 eligibility:
   min_age: 21
   min_monthly_income: 12000
-  notes: "Salaried: max age 60; Self-employed: max age 65, annual ITR > Rs. 6 lakh. Indian nationality required."
+  notes: null
 perks:
-  - "Complimentary IndianOil XTRAREWARDS Program (IXRP) membership"
-  - "Rs. 250 worth of voucher on card activation and at least one transaction within 37 days of issuance"
-  - "Renewal fee waiver on annual spends of Rs. 50,000 or above in the first year"
-  - "1% fuel surcharge waiver at all Indian fuel stations (min Rs. 400 per transaction, max Rs. 250 per cycle)"
-  - "Up to 50 days interest-free credit from date of purchase"
-source: "https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card"
-last_verified: "2026-11-25"
+  - Complimentary IndianOil XTRAREWARDS Program (IXRP) membership
+  - Rs. 250 worth of voucher on card activation and at least one transaction within 37 days of issuance
+  - Renewal fee waiver on annual spends of Rs. 50,000 or above in the first year
+  - 1% fuel surcharge waiver at all Indian fuel stations (min Rs. 400 per transaction, max Rs. 250 per cycle)
+  - Up to 50 days interest-free credit from date of purchase
+source: https://www.hdfcbank.com/personal/pay/cards/credit-cards/indianoil-hdfc-bank-credit-card
+last_verified: '2026-11-25'
