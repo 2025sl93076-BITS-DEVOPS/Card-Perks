@@ -29,8 +29,8 @@ const cardSchema = new mongoose.Schema(
       notes: { type: String, default: null },
     },
     perks: { type: [String], default: [] },
-    source: { type: String, required: true },
-    last_verified: { type: String, required: true },
+    source: { type: String, default: '' },
+    last_verified: { type: String, default: '' },
   },
   { timestamps: true }
 );
