@@ -6,6 +6,7 @@ import { join, dirname } from 'path';
 import connectDB from './config/db.js';
 import cardRoutes from './routes/cardRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
+import chatRoutes from './routes/chatRoutes.js';
 import errorHandler from './middleware/errorHandler.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -21,6 +22,7 @@ app.use(express.json());
 
 app.use('/api/cards', cardRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/chat', chatRoutes);
 
 app.get('/', (req, res) => {
   res.json({ message: 'Card Perks API is running' });

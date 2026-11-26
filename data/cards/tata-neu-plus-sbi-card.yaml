@@ -1,0 +1,28 @@
+name: Tata Neu Plus SBI Card
+issuer: SBI Card
+network: null
+fees:
+  joining: 0
+  annual: 499
+rewards:
+  base_rate: 1% Value Back as NeuCoins on other spends
+  categories:
+    - merchant: Tata Neu App/Website and partner Tata brands
+      rate: 2% Value Back as NeuCoins
+      cap: null
+    - merchant: Select category spends at Tata Neu App/Website
+      rate: Upto 5% Value Back as NeuCoins
+      cap: null
+eligibility:
+  min_age: null
+  min_monthly_income: null
+  notes: null
+perks:
+  - >-
+    4 Domestic Airport Lounge Accesses per year (1 per quarter, applicable on achieving Rs. 50,000 spends in previous
+    quarter)
+  - 1% fuel surcharge waiver on transactions between Rs. 500 and Rs. 4,000 (Max Rs. 250 per statement cycle)
+  - Annual Fee reversal on annual spends of Rs. 1 Lakh or more
+  - Welcome Gift of 499 NeuCoins within 15 days of Joining Fee realisation
+source: ''
+last_verified: '2026-11-26'

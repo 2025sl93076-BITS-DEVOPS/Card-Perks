@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import CardList from './pages/CardList';
 import AdminLogin from './pages/AdminLogin';
 import AdminPanel from './pages/AdminPanel';
+import ChatWidget from './components/ChatWidget';
 import './App.css';
 
 function ProtectedRoute({ children }) {
@@ -64,6 +65,7 @@ export default function App() {
                 </div>
               </div>
             </footer>
+            <ChatWidget />
           </>
         } />
       </Routes>

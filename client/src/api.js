@@ -11,3 +11,12 @@ export async function fetchCard(id) {
   if (!res.ok) throw new Error('Failed to fetch card');
   return res.json();
 }
+
+export async function sendChatMessage(messages) {
+  const res = await fetch(`${API_BASE}/api/chat`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ messages }),
+  });
+  return res.json();
+}
